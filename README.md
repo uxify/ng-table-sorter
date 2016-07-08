@@ -11,12 +11,13 @@ Click to sort function.
    <table ng-table-Mod="asc">
 
 2)Enclose the head part of the table under <thead></thead>
-   <thead>
+   	<code>	<thead>
 				<tr>
 					<th>Sl no.</th>
 					<th>Item</th>
 				</tr>
 		</thead>
+        </code>
 
 3) Enclose the body part of the table under <tbody></tbody>
    <tbody>
