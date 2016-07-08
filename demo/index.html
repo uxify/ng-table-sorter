@@ -1,0 +1,54 @@
+<html data-ng-app="chktable">
+<head>
+<script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.5.7/angular.min.js"></script>
+<script type="text/javascript" src="script.js"></script> 
+</head>
+<body>
+<style>
+table {
+    border-collapse: separate;
+    border-spacing: 0;
+    border-top: 1px solid;
+    border-left: 1px solid;
+    margin-bottom: 30px;
+	border-color: rgba(68,68,68,0.2);
+}
+td, th {
+    padding: 10px 15px;
+    border-bottom: 1px solid;
+    border-right: 1px solid;
+	border-color: rgba(68,68,68,0.2);
+}
+strong {
+    font-weight: 700;
+}
+</style>
+
+
+	<div class="table1" ng-controller="table1_con">
+		<table ng-table-Mod="asc">
+			<thead>
+				<tr>
+					<th>Sl no.</th>
+					<th>Name</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>1</td>
+					<td>Angular</td>
+				</tr>
+				<tr>
+					<td>2</td>
+					<td>React</td>
+				</tr>
+				<tr>
+					<td>3</td>
+					<td>Vue</td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+
+</body>
+</html>
